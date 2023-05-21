@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
+        System.out.println("Hello");
         Map<String, String> human = Collections.singletonMap("Galina", "Tsivka");
         String humanInformationWithBracets = new Gson().toJson(human);
         String humanInformationFromJsonWithBracet = humanInformationWithBracets.replace("{", "");
